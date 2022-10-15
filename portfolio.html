@@ -1,67 +1,123 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
 
 <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/css/styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@900&display=swap"
-        rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway&display=swap"
-        rel="stylesheet">
     <title>WebStudio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 
-<body class="main-content">
+<body>
     <!--Top Line-->
-    <div class="top-line">
-        <a class="logo-header" href="/">Web<span class="logo-caption">Studio</span></a>
+    <header>
+        <a href="/">Web<span>Studio</span></a>
         <nav>
-            <div class="menu-nav">
-                <!-- Menu navigation -->
-                <ul class="menu-list">
-                    <li class="menu-list-s"><a href="index.html">Студія</a></li>
-                    <li class="menu-list-p"><a href="portfolio.html">Портфоліо</a></li>
-                    <li class="menu-list-c"><a href="contacts">Контакти</a></li>
-                </ul>
-            </div>
+            <!-- Menu navigation -->
+            <ul>
+                <li><a href="./index.html">Студія</a></li>
+                <li><a href="./portfolio.html">Портфоліо</a></li>
+                <li><a href="">Контакти</a></li>
+            </ul>
         </nav>
         <!--Contacts-->
-        <div class="menu-nav">
-            <a class="nav-list-m" href="mailto:info@devstudio.com">info@devstudio.com</a>
-            <a class="nav-list-t" href="tel:+380961111111">+38 096 111 11 11</a>
-        </div>
-    </div>
-    <hr class="line">
-    <!--Шапка-->
-    <header>
-        <h1 class="title">Ефективні рішення для вашого бізнесу</h1>
-
-        <button class="button-header" type="button">Замовити послугу</button>
-
+        <ul>
+            <li>
+                <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+            </li>
+            <li>
+                <a href="tel:+380961111111">+38 096 111 11 11</a>
+            </li>
+        </ul>
     </header>
     <main>
         <section>
-            <div>
-                <ul>
-                    <li>
-                        Усі
-                        <ul>
-                            <li class="card">
-                                <img src="" alt="Photo">
-                                <div class="container">
-                                    <h4><b>Ігор Дем'яненко</b></h4>
-                                    <p>Product Designer</p>
-                                </div>
-                            </li>
-                        </ul>
-                    </li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
-            </div>
+            <h2>Портфоліо</h2>
+            <ul>
+                <li>
+                    <button type="button">Усі</button>
+                </li>
+                <li>
+                    <button type="button">Веб-сайти</button>
+                </li>
+                <li>
+                    <button type="button">Додатки</button>
+                </li>
+                <li>
+                    <button type="button">Дизайн</button>
+                </li>
+                <li>
+                    <button type="button">Маркетинг</button>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <img src="./images/notebook.jpg" alt="Photo" width="370" />
+                    <h3>Технокряк</h3>
+                    <p>Веб-сайт</p>
+                </li>
+                <li>
+                    <img src="./images/poster.jpg" alt="Photo" width="370" />
+                    <h3>Постер New Orlean vs Golden Star</h3>
+                    <p>Дизайн</p>
+                </li>
+            
+                <li>
+                    <img src="./images/seafood.jpg" alt="Photo" width="370" />
+                    <h3>Ресторан Seafood</h3>
+                    <p>Додаток</p>
+                </li>
+                <li>
+                    <img src="./images/earphones.jpg" alt="Photo" width="370" />
+                    <h3>Проєкт Prime</h3>
+                    <p>Маркетинг</p>
+                </li>
+                <li>
+                    <img src="./images/boxes.jpg" alt="Photo" width="370" />
+                    <h3>Проєкт Boxes</h3>
+                    <p>Додаток</p>
+                </li>
+                <li>
+                    <img src="./images/monitor.jpg" alt="Photo" width="370" />
+                    <h3 lang="en">Inspiration has no Borders</h3>
+                    <p>Веб-сайт</p>
+                </li>
+                <li>
+                    <img src="./images/limited.jpg" alt="Photo" width="370" />
+                    <h3>Видання Limited Edition</h3>
+                    <p>Дизайн</p>
+                </li>
+                <li>
+                    <img src="./images/lab.jpg" alt="Photo" width="370" />
+                    <h3>Проєкт LAB</h3>
+                    <p>Маркетинг</p>
+                </li>
+                <li>
+                    <img src="./images/business.jpg" alt="Photo" width="370" />
+                    <h3 lang="en">Growing Business</h3>
+                    <p>Додаток</p>
+                </li>
+            </ul>
         </section>
     </main>
+    <!--Підвал-->
+    <footer>
+        <a href="/">Web<span>Studio</span></a>
+        <address>
+            <ul>
+                <li>м. Київ, пр-т Лесі Українки, 26</li>
+                <li>
+                    <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+                </li>
+                <li>
+                    <a href="tel:+380961111111">+38 096 111 11 11</a>
+                </li>
+            </ul>
+        </address>
+    </footer>
+</body>
+
+</html>
