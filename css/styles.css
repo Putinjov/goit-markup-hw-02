@@ -10,7 +10,6 @@
 body {
   background: var(--bgcolor-primary);
   color: var(--text-color-primary);
-
   font-family: "Roboto", sans-serif;
   letter-spacing: 0.03em;
 }
@@ -19,7 +18,7 @@ body {
   text-decoration: none;
 }
 
-.list{
+.list {
   list-style-type: none;
 }
 
@@ -50,7 +49,6 @@ body {
   font-size: 14px;
   line-height: 1.1;
   letter-spacing: 0.02em;
-
 }
 
 .site-nav .link {
@@ -59,11 +57,6 @@ body {
   line-height: 1.1;
 
   color: inherit;
-}
-
-.site-nav .link:hover,
-.site-nav .link:focus {
-  color: var(--brand-color-accent);
 }
 
 /*Contacts*/
@@ -136,7 +129,6 @@ body {
 }
 
 .features-description {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
 
@@ -158,11 +150,12 @@ body {
 }
 
 .cards-captions {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.2;
   color: var(--text-color-secondary);
 }
+
+/*Footer*/
 
 .footer {
   background-color: var(--brand-color-bg);
@@ -170,8 +163,6 @@ body {
 
 .address {
   font-style: normal;
-  list-style-type: none;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
   color: #ffffff;
@@ -179,4 +170,43 @@ body {
 
 .address .link {
   color: rgba(255, 255, 255, 0.6);
+}
+
+.link:hover,
+.link:focus {
+  color: var(--brand-color-accent);
+}
+
+/*Portfolio*/
+
+.filter-button {
+  cursor: pointer;
+
+  background-color: var(--bgcolor-secondary);
+
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+
+  border: 0;
+}
+
+.filter-button:hover,
+.filter-button:focus {
+  color: #ffffff;
+  background-color: var(--brand-color-accent);
+}
+
+.gallery .title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.gallery-caption {
+  font-size: 16px;
+  line-height: 1.9;
+  color: var(--text-color-secondary);
 }
