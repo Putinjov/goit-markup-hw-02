@@ -108,7 +108,11 @@ body {
   line-height: 1.8;
   text-align: center;
   cursor: pointer;
+  letter-spacing: 0.03em;
 }
+
+.button:hover, .button:focus{
+  background: #188CE8;
 
 /*Section*/
 
@@ -188,6 +192,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
+  letter-spacing: 0.03em;
 
   border: 0;
 }
